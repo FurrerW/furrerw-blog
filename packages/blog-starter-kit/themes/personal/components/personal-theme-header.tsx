@@ -3,6 +3,7 @@ import { resizeImage } from '@starter-kit/utils/image';
 import Link from 'next/link';
 import { PublicationNavbarItem } from '../generated/graphql';
 import { useAppContext } from './contexts/appContext';
+import { SocialLinks } from './socialLinks';
 
 function hasUrl(
 	navbarItem: PublicationNavbarItem,
@@ -86,12 +87,20 @@ export const PersonalHeader = () => {
 			<div className="col-span-full flex flex-row items-center justify-between gap-4 md:col-span-1 md:justify-end">
 				<nav>{navList}</nav>
 				{/* <Button
-          label=""
-          type="outline"
-          className="!p-2"
-          icon={<NewsletterPlusSVG className="w-5 h-5 fill-current" />}
-        /> */}
+					label=""
+					type="outline"
+					className="!p-2"
+					icon={<NewsletterPlusSVG className="h-5 w-5 fill-current" />}
+				/> */}
 			</div>
+			<section className="col-span-full mx-auto w-full space-y-4">
+				<h2>About Me</h2>
+				<p>
+					Currently in the process of changing careers into tech. I landed my first job in IT in
+					January 2024, but am currently studying for the CompTIA A+ and AZ-900 Certifications.
+				</p>
+				<SocialLinks />
+			</section>
 		</header>
 	);
 };
