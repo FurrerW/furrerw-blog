@@ -1,10 +1,10 @@
 <p align="center">
-  <a href="https://hashnode.com">
+  <a href="https://walterfurrer.com">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://cdn.hashnode.com/res/hashnode/image/upload/v1611902473383/CDyAuTy75.png?auto=compress">
       <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1611902473383/CDyAuTy75.png?auto=compress" height="128">
     </picture>
-    <h1 align="center">Hashnode</h1>
+    <h1 align="center">walterfurrer.com</h1>
   </a>
 </p>
 <p align="center">
